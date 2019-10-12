@@ -1,10 +1,10 @@
 <template >
-  <mdb-container>
-    <mdb-row>
+  <mdb-container >
+    <mdb-row >
       <mdb-col sm="4">
-        <mdb-card dark>
+        <mdb-card dark  >
           <mdb-view hover>
-            <p class="h4 text-center mb-4">Sign in</p>
+            <p class="h4 text-center mb-4">Iniciar sesión</p>
           </mdb-view>
           <mdb-card-body color="elegant" class="white-text">
             <div class="grey-text">
@@ -12,12 +12,14 @@
               <mdb-input label="Your password" icon="lock" type="password" />
             </div>
             <div class="text-center">
-              <button class="btn peach-gradient">Login</button>
+              <router-link to="/dashboard">
+              <button class="btn peach-gradient">Iniciar sesión</button>
+              </router-link>
             </div>
             <mdb-modal-footer class="mx-5 pt-3 mb-1">
               <p class="font-small grey-text d-flex justify-content-end">
-                Not a member?
-                <a href="#" class="blue-text ml-1">Sign Up</a>
+                No eres miembro?
+                <a href="#" class="blue-text ml-1">Registrarse</a>
               </p>
             </mdb-modal-footer>
           </mdb-card-body>

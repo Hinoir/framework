@@ -1,18 +1,15 @@
 <template>
-    <!--<Login></Login>-->
-    <SignUp></SignUp>
+    <Login ></Login>
 </template>
 
 <script>
 
-//import Login from "./components/Login"
-import SignUp from "./components/SignUp"
+import Login from "./components/Login"
 
 export default {
   name: 'App',
   components: {
-    //Login,
-    SignUp
+    Login
   },
   data: () => ({
     //

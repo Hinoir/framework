@@ -9,7 +9,7 @@
           <mdb-card-body color="elegant" class="white-text">
             <div class="grey-text">
               <mdb-input
-                label="Your name"
+                label="Nombre"
                 icon="user"
                 group
                 type="text"
@@ -18,7 +18,16 @@
                 success="right"
               />
               <mdb-input
-                label="Your email"
+                label="Apellido"
+                icon="user"
+                group
+                type="text"
+                validate
+                error="wrong"
+                success="right"
+              />
+              <mdb-input
+                label="Correo electronico"
                 icon="envelope"
                 group
                 type="email"
@@ -27,23 +36,23 @@
                 success="right"
               />
               <mdb-input
-                label="Confirm your email"
                 icon="exclamation-triangle"
                 group
-                type="text"
+                type="date"
                 validate
                 error="wrong"
                 success="right"
+                label="Valido hasta"
               />
-              <mdb-input label="Your password" icon="lock" group type="password" validate />
+              <mdb-input label="Contraseña" icon="lock" group type="password" validate />
             </div>
             <div class="text-center">
-              <button class="btn peach-gradient">Register</button>
+              <button class="btn peach-gradient">Registrarse</button>
             </div>
             <mdb-modal-footer class="mx-5 pt-3 mb-1">
               <p class="font-small grey-text d-flex justify-content-end">
                 Already a member?
-                <a href="#" class="blue-text ml-1">Sign in</a>
+                <a href="#" class="blue-text ml-1">Iniciar sesión</a>
               </p>
             </mdb-modal-footer>
           </mdb-card-body>
